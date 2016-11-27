@@ -1,0 +1,29 @@
+/* basic CSS reset */
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+/* add a black background to the body to make things clearer */
+body {
+    background: black;
+}
+
+h1 {
+     color: white;
+     font-size: 100px;
+     text-align: center;
+     padding-top: 20%;
+}
+
+canvas {
+    position: absolute;
+}
+
+/* 
+Canvas is a block level element and is used to display animation in this example.
+
+A complete list of block-level and inline elements can be found on MDN
+https://developer.mozilla.org/en/docs/Web/HTML/Block-level_elements 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements
+*/
